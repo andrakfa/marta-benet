@@ -1,0 +1,35 @@
+.newsletter{
+    padding-top: 130px;
+    &__title{
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 53px;
+        font-weight: 400;
+        margin-bottom: 102px;
+    }
+    &__hr{
+        margin: 0 auto;
+        width: 576px;
+        background: (11, 8, 5, 0.2);
+        margin-bottom: 24px;
+    }
+    &__hr-2{
+        margin: 0 auto;
+        width: 1072px;
+        background: rgba(11, 8, 5, 0.1);
+    }
+    &__p{
+        text-align: center;
+        font-family: "Cardo", serif;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 16px;
+    }
+    &__lasttitle{
+        text-align: center;
+        margin-bottom: 186px;
+        font-family: "Cardo", serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}

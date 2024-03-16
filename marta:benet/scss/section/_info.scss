@@ -1,0 +1,77 @@
+.info{
+    padding-top: 100px;
+    &__title{
+        color: rgb(0, 0, 0);
+        width: 745px;
+        font-family: "Roboto", sans-serif;
+        font-size: 72px;
+        font-weight: 400;
+        line-height: 80px;
+        margin-bottom: 60px;
+    }
+    &__discover-btn{
+        width: 175px;
+        height: 35px;
+        border: 1px solid rgb(0, 0, 0);
+        background: transparent;
+        border-radius: 9999px;
+        margin-bottom: 64px;
+        font-family: "Cardo", serif;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    &__img{
+        height: 381px;
+        width: 305px;
+    }
+    &__main-img-block{
+        margin-bottom: 113px;
+        display: flex;
+        &_first-img{
+            margin-top: 201px;
+            margin-right: 24px;
+            width: 414px;
+            height: 276px;
+        }
+    }
+    &__img-block{
+        display: flex;
+        gap: 24px;
+    }
+    &__paragraph{
+        width: 1050px;
+        margin-bottom: 35px;
+        font-family: "Cardo", serif;
+        font-size: 17px;
+        font-weight: 400;
+    
+    }
+    &__paragraph:first-child{
+        margin-top: 180px;
+        margin-bottom: 16px;
+    }
+    &__more-btn{
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 9999px;
+        width: 166px;
+        height: 23px;
+        background: transparent;
+        font-family: "Cardo",serif;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 215px;
+    }
+    &__citat-block{
+        display: flex;
+        justify-content: center;
+    }
+    &__citat{
+        width: 312px;
+        color: rgb(0, 0, 0);
+        font-family: "Cardo", serif;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 95px;
+    }
+}
