@@ -1,0 +1,46 @@
+:root{
+    --black: black;
+    --white: white;
+    --roboto: "Roboto", sans-serif;
+    --cardo: "Cardo", serif;
+}
+
+*,::after,::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: var(--white);
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #000000;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+input {
+    border: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1058px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

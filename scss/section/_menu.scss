@@ -1,0 +1,45 @@
+.menu{
+    margin-bottom: 200px;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+    &__left{
+        max-width: 196px;
+        width: 18.05%;
+    }
+    &__right{
+        max-width: 196px;
+        width: 18.05%;
+        padding-top: 196px;
+    }
+    &__center{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:10px;
+    }
+    &__center-title{
+        color: var(--black);
+        font-family: var(--roboto);
+        font-size: 51px;
+        font-weight: 400;
+        line-height: 80px;
+    }
+    &__btn-block{
+        display: flex;
+        justify-content: center;
+    }
+    &__btn{
+        width: 115px;
+        height: 35px;
+        border: 1px solid var(--black);
+        border-radius: 9999px;
+        background: transparent;
+        font-family: var(--cardo);
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+}
